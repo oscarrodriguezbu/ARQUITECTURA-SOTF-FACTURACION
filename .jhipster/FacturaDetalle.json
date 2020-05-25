@@ -1,0 +1,33 @@
+{
+    "name": "FacturaDetalle",
+    "fields": [
+        {
+            "fieldName": "productoId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "cantidad",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "precioUnitario",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200525124700",
+    "entityTableName": "factura_detalle",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": [
+        "gatewaystore",
+        "facturacionmicroservicio"
+    ],
+    "microserviceName": "facturacionmicroservicio"
+}
